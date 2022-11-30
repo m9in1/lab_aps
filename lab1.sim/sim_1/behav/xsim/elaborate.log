@@ -1,0 +1,11 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/program/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 7edfbb9576ac43c68e6a2ee7960a3d66 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_proc_behav xil_defaultlib.sim_proc xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 3 for port 'mem_size_o' [D:/MIET/APS_labs/lab1/lab1.srcs/sources_1/new/tract.sv:34]
+WARNING: [VRFC 10-3283] element index 19 into 'sign' is out of bounds [D:/MIET/APS_labs/lab1/lab1.srcs/sources_1/new/se.sv:9]
+WARNING: [VRFC 10-3283] element index 18 into 'sign' is out of bounds [D:/MIET/APS_labs/lab1/lab1.srcs/sources_1/new/sign_extend_imm_j.sv:9]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
